@@ -1,22 +1,24 @@
 # Yesterday
 
-- Yadda 1.
-- Yadda 2.
+- Monday.
+- Prep for Tommorrow.
 
 # Today
 
-- I edited this dev-branch for clarity.
-- took care of Yadda 1.
+- Tuesday.
+- Prep for Tomorrow.
 
 # Tomorrow
 
-- Weekly Report.
-- P.E. Activities.
+- Wednesday.
+- Mobile / Prep for Vacation.
 
 Thanks for taking the time to check out this README.md,
 
 ### enjoy 🎉
 
----
+- Vacation
 
 ## Template
+
+- For Futures In Deveopment.
