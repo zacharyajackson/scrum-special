@@ -5,19 +5,14 @@
 
 # Today
 
-- Tuesday.
+- Monday.
 - Prep for Tomorrow.
 
 # Tomorrow
 
-- Wednesday.
-- Mobile / Prep for Vacation.
-
-Thanks for taking the time to check out this README.md,
-
-### enjoy 🎉
-
-- Vacation
+- Tuesday.
+- Google Meeting/Class.
+- make notes and do whatever the assignmemnts are.
 
 ## Template
 
