@@ -4,6 +4,10 @@ const SearchInput = document.querySelector("[data-search]")
 
 let users = []
 
+function greeting() {
+    console.log('Hello-World');
+}
+
 SearchInput.addEventListener("input", e => {
     const value = e.target.value.toLowerCase()
     users.forEach(user => {
