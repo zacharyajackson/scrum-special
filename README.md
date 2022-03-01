@@ -1,7 +1,7 @@
 # Yesterday
 
-- Monday.
-- Prep for Tommorrow.
+- Sunday.
+- Preped for Today.
 
 # Today
 
