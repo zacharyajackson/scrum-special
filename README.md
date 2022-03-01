@@ -5,7 +5,7 @@
 
 # Today
 
-- I di d this and that;
+- I did this and that;
 - took care of Yadda 1;
 
 # Tomorrow
