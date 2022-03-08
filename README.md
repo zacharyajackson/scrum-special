@@ -1,19 +1,19 @@
 # Yesterday
 
-- Sunday.
-- Preped for Today.
+- Monday.
+- Prepped for Today.
 
 # Today
 
-- Monday.
-- Prep for Tomorrow.
+- Tuesday.
+- Google Classroom.
 
 # Tomorrow
 
-- Tuesday.
-- Google Meeting/Class.
-- make notes and do whatever the assignmemnts are.
+- Wednesday.
+- review assignments.
+- help 
 
 ## Template
 
-- For Futures In Deveopment.
+- For Futures In Development.
