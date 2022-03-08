@@ -1,3 +1,4 @@
+
 # Yesterday
 
 - Monday.
@@ -14,6 +15,7 @@
 - review assignments.
 - help 
 
-## Template
+## Template 🎉
+
 
 - For Futures In Development.
