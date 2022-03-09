@@ -34,7 +34,7 @@ let user = {// again let key word as I want this scopped accordingly...
 };
 //4. Another Object with two methods inside
 const person = () => {
-      name: 'Tester',
+      Tname = 'Tester', // made for diff in naming convention
       walk = () => { },
       talk = () => { }
 
@@ -43,13 +43,14 @@ const person = () => {
 };
 // make the person object walk and talk like a T-Bird
 person.talk();
-person.name = '';
+
+const targetMember = 'name'; // because each T-bird member has a name
+person[targetMember.value] = 'Brad'; // 
 const walk = person.walk; // walk is now a function here...
 console.log(walk);
-const targetMember = 'name'; // because each T-bird member has a name
-person.walk();
 
-// reassignment of the name on person
-person[targetMember.value] = 'T-Bird';
+person.walk(this); // diff reference 
+walk();
+
+// undefined if strict mode is enabled by default.
 // FYI the window object is the global object in browsers by default.
-
