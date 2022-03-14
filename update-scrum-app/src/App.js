@@ -1,3 +1,4 @@
+//import Person from './person';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,12 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <article className="mod-reader">
+        <h2>Person</h2>
+        <Person>
+          Tester
+        </Person>
+      </article> */}
     </div>
   );
 }
