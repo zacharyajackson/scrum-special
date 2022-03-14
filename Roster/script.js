@@ -20,6 +20,7 @@ SearchInput.addEventListener("input", e => {
 })
 
 fetch("https://jsonplaceholder.typicode.com/users")
+
     .then(res => res.json())
     .then(data => {
         users = data.map(user => {
