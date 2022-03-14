@@ -8,19 +8,22 @@ import React, { Component } from 'react';
  */
 
 
-
 const people = {
       name: "Tester",
       walk() {
-            var self = this; // leaving a variable for my self
-            setTimeout( () => { // Arrow functions do not rebind the *this* key-word
-            console.log("this", this); // all stand alone functions call the window object with this, "self"...strict mode does not overide here in this scope.
+            let self = this; // leaving a variable for my self
+            setTimeout(() => { // Arrow functions do not rebind the *this* key-word
+                  console.log("this", this); // all stand alone functions call the window object with this, "self"...strict mode does not overide here in this scope.
             }, 1000); // set for a time out of thousand millis to function.      
-      console.log("this", self); // *this* is now bound on people who have the walk method as my self
+            console.log("this", self); // *this* is now bound on people who have the walk method as my self
+      },
+      read() {
+            console.log("read", this);
       }
 };
 
 people.walk();
+people.read();
 
 const walk = person.walk.bind(people); // with the bind method we can set the value of *this* always in this global scope
 walk();
@@ -55,7 +58,7 @@ const { street: st } = address; // This is abstracting the properties via destru
 const first = [1, 2, 3];
 const second = [4, 5, 6];
 
-const combined = {...first, ...second, location: "USA"};
+const combined = { ...first, ...second, location: "USA" };
 //const combined  = [...first, 'a', ...second, 'b']; // the three dots do the spreading
 const clone = [...first];
 console.log(first);
@@ -65,6 +68,8 @@ console.log(clone, combined); // logging the same and the combined object spread
 function myBio(firstName, lastName, ...associates) {
       return `${firstName} ${lastName} runs ${associates}`; // also template literals here for the Bla Bla-bla law-blog associated
 };
+
+read(myBio);
 myLawFirm("Bla", "Bla-bla", "Bla-balblaya", "Lob-law", "law-blog");
 
 myLawFirm(...["Bla-blablaya", "lob-law", "law-blog"]);
@@ -73,7 +78,7 @@ myLawFirm(...["Bla-blablaya", "lob-law", "law-blog"]);
 
 // Blueprint for Esquire objects
 class Esquire {
-      constructor(name) {
+      constructor (name) {
             this.name = name;
       }
 
@@ -87,8 +92,8 @@ lawyer.walk.toString(myLawFirm);
 
 // Next Level inheratance
 // React 
-class Teacher extends Esquire{ // This is a child class of the Esquire Class
-      constructor(name, degree) { // this is a custom constructor w/ two args
+class Teacher extends Esquire { // This is a child class of the Esquire Class
+      constructor (name, degree) { // this is a custom constructor w/ two args
             super(name); // calling the method super of Parent ... passing the name arg initializes the Class with a name
             this.degree = degree;
       }
@@ -101,6 +106,7 @@ class Teacher extends Esquire{ // This is a child class of the Esquire Class
 const teacher = new Teacher("Lobb", "Esq");
 teacher.degree("");
 teacher.teach(); // teach
+teacher.read(this); // this was inherited from
 
 // Modules... each file is a module. 
 

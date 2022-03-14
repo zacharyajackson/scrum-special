@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background: #4946eb;
-	font-family: ubuntu;
+  font-family: ubuntu;
 }
 
 header {
@@ -29,6 +29,7 @@ article {
   padding: 10px;
 }
 
-hr, article .date {
+hr,
+article .date {
   color: #a0a0a0;
 }
