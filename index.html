@@ -50,22 +50,84 @@
         <h3>Review & Updates</h3>
         <hr />
         <p>Yesterday</p>
-        <p class="date">2022-09-03</p>
+        <p class="date">2022-23-03</p>
+        <p>I followed up on emails as usual.
+          following up in slack and asked a question in ticket for a future seemed to take forever.
+          But, I had time to asked/reminded about blocker from Yesterday.
+          Had 11:00 meeting which has become quite routine as of late.
+          Oh, and last night we had class meeting/did jeopardy style game for terms review.
+          I was able to engaged with classmates and continue learning and growing as a developer.</p>
       </article>
       <article>
         <hr />
         <p>Today</p>
-        <p class="date">2022-10-03</p>
+        <p class="date">2022-24-03</p>
+        <p>I reached out to UI dev for onboarding to project and to schedule regular meetings during the design phase.
+          Having engaged w/ #support_questions on answers/clarity,
+          I procedded to my daily standup 11:00 w/ Zach where we planned scheduled zoom meeting w/product owner for new
+          solutions and discovery needs as consultation and board
+          After that I set-up/invites & TODO's for the project owners
+          I reported my blocker in adding automation to Jira boards as desired and will have to make a work around.</p>
       </article>
       <article>
         <hr />
         <p class="t_date">Tomorrow</p>
-        <p class="date">2022-11-03</p>
-      </article>
-    </main>
+        <p class="date">2022-25-03</p>
+      
+    
+
+    <div class = title >Calculator</div>
+<table border="2">
+<tr>
+<td><input type="button" value="c" onclick="clr()"/> </td>
+<td colspan="3"><input type="text" id="textval"/></td>
+</tr>
+<tr>
+<td><input type="button" value="+" onclick="display('+')"/> </td>
+<td><input type="button" value="1" onclick="display('1')"/> </td>
+<td><input type="button" value="2" onclick="display('2')"/> </td>
+<td><input type="button" value="3" onclick="display('3')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="-" onclick="display('-')"/> </td>
+<td><input type="button" value="4" onclick="display('4')"/> </td>
+<td><input type="button" value="5" onclick="display('5')"/> </td>
+<td><input type="button" value="6" onclick="display('6')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="*" onclick="display('*')"/> </td>
+<td><input type="button" value="7" onclick="display('7')"/> </td>
+<td><input type="button" value="8" onclick="display('8')"/> </td>
+<td><input type="button" value="9" onclick="display('9')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="/" onclick="display('/')"/> </td>
+<td><input type="button" value="." onclick="display('.')"/> </td>
+<td><input type="button" value="0" onclick="display('0')"/> </td>
+<td><input type="button" value="=" onclick="evaluate()"/> </td>
+</tr>
+</table>
+</article>
+<script>
+  function display(val)
+  {
+   document.getElementById("textval").value+=val
+   }
+  function evaluate()
+  {
+   let x = document.getElementById("textval").value
+   let y = eval(x)
+   document.getElementById("textval").value = y
+  }
+  function clr()
+  {
+   document.getElementById("textval").value = ""
+  }
+  </script>
+
     <footer>
       <p>Are You Ready To <a href="https://replit.com/@HarrisMBrad"> Demo ?</a></p>
     </footer>
-  </body>
-
+  
+</main>
 </html>

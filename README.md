@@ -1,22 +1,24 @@
+# What are the requirements for your project?
 
-# Yesterday
+  1. Practicing and Contributing.
+  2. That you add comething to the project and update the files needed to function.
 
-- Tuesday
-- Prepped for Today.
+## What is the purpose of the application?
 
-# Today
+- This application purpose is to be an aid in counting the cost and planning and deveoping itself as a living document with the people that contribute to it or use it to practice there skills.
 
-- Wednesday.
-- Finished Rd.1 of In-Class Assignment x 4 Rnds. of ES6 Tutorial Larn Modern JavaScript.
-- Commentted the mastery points form Part 1
-- Installed 3rd Party Libs from React using Components.
+## What technologies are used?
 
-# Tomorrow
+- JavaScript (ES6)
+- CSS
+- HTML
+- React Libs
+- Node
 
-- Thursday.
-- update &review assignments.
-- be ready to show and tell if needed.
+## Are there any dependencies?
 
-## Template 🎉
+- Node modules
+- React Library
+- Jest
 
-- For Futures In Development.
+## How will I manage my time to complete this project?
