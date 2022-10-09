@@ -49,65 +49,33 @@
       <article>
         <h3>Review & Updates</h3>
         <hr />
-        <p>Yesterday</p>
-        <p class="date">2022-23-03</p>
-        <p>I followed up on emails as usual.
-          following up in slack and asked a question in ticket for a future seemed to take forever.
-          But, I had time to asked/reminded about blocker from Yesterday.
-          Had 11:00 meeting which has become quite routine as of late.
-          Oh, and last night we had class meeting/did jeopardy style game for terms review.
-          I was able to engaged with classmates and continue learning and growing as a developer.</p>
+        <p>Novemner</p>
+        <p class="date">2022-31-11</p>
+        <p>Monthly Report: 
+          TODO: Nov 1, 2022 Review Monthly 
+          > Processes and Tools.. Update on Mirror for clarity… 
+          > Note changes in tech</p>
       </article>
       <article>
         <hr />
-        <p>Today</p>
-        <p class="date">2022-24-03</p>
-        <p>I reached out to UI dev for onboarding to project and to schedule regular meetings during the design phase.
-          Having engaged w/ #support_questions on answers/clarity,
-          I procedded to my daily standup 11:00 w/ Zach where we planned scheduled zoom meeting w/product owner for new
-          solutions and discovery needs as consultation and board
-          After that I set-up/invites & TODO's for the project owners
-          I reported my blocker in adding automation to Jira boards as desired and will have to make a work around.</p>
+        <p>December</p>
+        <p class="date">2022-25-12</p>
+        <p>New Monthly 
+          - Processes and Tools.. 
+          - TODO: 2023 Update on Mirror for clarity.
+          - Note changes in tech web3</p>
       </article>
       <article>
         <hr />
-        <p class="t_date">Tomorrow</p>
-        <p class="date">2022-25-03</p>
+        <p class="t_date">Web 3</p>
+        <p class="date">2023-25-01</p>
+        <p>Mirror Double Dolphin On Block Updates </p>
+
+      
       
     
 
-    <div class = title >Calculator</div>
-<table border="2">
-<tr>
-<td><input type="button" value="c" onclick="clr()"/> </td>
-<td colspan="3"><input type="text" id="textval"/></td>
-</tr>
-<tr>
-<td><input type="button" value="+" onclick="display('+')"/> </td>
-<td><input type="button" value="1" onclick="display('1')"/> </td>
-<td><input type="button" value="2" onclick="display('2')"/> </td>
-<td><input type="button" value="3" onclick="display('3')"/> </td>
-</tr>
-<tr>
-<td><input type="button" value="-" onclick="display('-')"/> </td>
-<td><input type="button" value="4" onclick="display('4')"/> </td>
-<td><input type="button" value="5" onclick="display('5')"/> </td>
-<td><input type="button" value="6" onclick="display('6')"/> </td>
-</tr>
-<tr>
-<td><input type="button" value="*" onclick="display('*')"/> </td>
-<td><input type="button" value="7" onclick="display('7')"/> </td>
-<td><input type="button" value="8" onclick="display('8')"/> </td>
-<td><input type="button" value="9" onclick="display('9')"/> </td>
-</tr>
-<tr>
-<td><input type="button" value="/" onclick="display('/')"/> </td>
-<td><input type="button" value="." onclick="display('.')"/> </td>
-<td><input type="button" value="0" onclick="display('0')"/> </td>
-<td><input type="button" value="=" onclick="evaluate()"/> </td>
-</tr>
-</table>
-</article>
+
 <script>
   function display(val)
   {
@@ -124,7 +92,99 @@
    document.getElementById("textval").value = ""
   }
   </script>
+<h1>Volunteer to Win!</h1>
+<h3>Sign-Up to Practice.</h3>
 
+<div class="heart" id="root"></div>
+  <form action="/action_page.php">
+
+    </div>
+  
+  
+    <input type="text" name="search" placeholder="Search Stocks">
+    <br>
+  <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+  <select id="country" name="country" color="#FFCCCC">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+  </select>
+    
+
+  <input id ="pickdate" type="date" value="Submit">
+</form>
+</div>
+<br>
+<section>
+  <form>
+    <p>Sign up to receive practice advice posts by email here!</p>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
+
+    
+    <fieldset>
+      <legend>What level trader are you?</legend>
+      <input id="newbie" type="radio" name="levels" value="newbie">
+      <label for="newbie">Minor/Dev/Student</label><br>
+      <input id="intermediate" type="radio" name="levels" value="intermediate">
+      <label for="intermediate">Adult/Dev/Student</label><br>
+      <input id="master" type="radio" name="levels" value="master">
+      <label for="master">Broker</label>
+    </fieldset>
+    <br>
+    <section>
+    <h2>Investment Extravaganza! </h2>
+    <form>
+      <p>Come and join <time datetime="2023-06-19">Vizcaya<sup>T</sup></time> all day event.</p>
+      <label for="pickdate">You Can Volunteer:</label>
+
+      <input type="date" id="pickdate" name="date">
+
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </section>
+    
+    <input type="submit" name="submit" value="Submit">
+  </form>
+</section>
+<br>
+<section>
+<br>
+<button id="teller-connect">Click to Connect</button>
+<br>
+</section>
+
+<!-- Body of your page... -->
+
+<!-- Part 1. Include the client library -->
+<script src="https://cdn.teller.io/connect/connect.js"></script>
+<script>
+  // Part 2. Initialize & configure the client library
+  document.addEventListener("DOMContentLoaded", function () {
+    var tellerConnect = TellerConnect.setup({
+      applicationId: "app_ngbhv0umdiogcn9op0000",
+      onInit: function () {
+        console.log("Teller Connect has initialized");
+      },
+      // Part 3. Handle a successful enrollment's accessToken
+      onSuccess: function (enrollment) {
+        console.log("User enrolled successfully", enrollment.accessToken);
+      },
+      onExit: function () {
+        console.log("User closed Teller Connect");
+      }
+    });
+
+    // Part 4. Hook user actions to start Teller Connect
+    var el = document.getElementById("teller-connect");
+    el.addEventListener("click", function () {
+      tellerConnect.open();
+    });
+  });
+</script>
     <footer>
       <p>Are You Ready To <a href="https://replit.com/@HarrisMBrad"> Demo ?</a></p>
     </footer>

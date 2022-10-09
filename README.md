@@ -22,3 +22,12 @@
 - Jest
 
 ## How will I manage my time to complete this project?
+
+### Find a Buddy Feature
+
+- if you checkout the hello-feature branch the objective is to add code that says hello to others in some way new.
+  > TODO: Nov 25, 2022 Review Monthly.
+
+> Find a Buddy feature.
+> Processes and Tools.. Update on Mirror for clarity… 
+> Note changes in tech
