@@ -15,13 +15,13 @@ header {
 
 header img {
   width: 50px;
-  background: white;
+  background: whitesmoke;
   border-radius: 5px;
   margin: 0 20px 0 40px;
 }
 
 article {
-  background: white;
+  background: whitesmoke;
   border: 3px solid #a0a0a0;
   width: 90%;
   margin: 20px auto;
