@@ -1,18 +1,17 @@
 # Yesterday
 
-- Yadda 1
-- Yadda 2
+- Git Prep
+- Prepped for programming with git commands.
 
-# Today
+## Today
 
-- I di d this and that;
-- took care of Yadda 1;
+- Thursday.
+- Edited this README.md file
+  
+### Tomorrow
 
-# Tomorrow
+- Looking for updates from students or class mates
 
-- I need to take care of Yadda 2;
-- make new Yadda Yadda items todo for my future tomorrow's
+## Template 🎉
 
-Thanks for taking the time to check out this README.md,
-
-### enjoy 🎉
+- For Futures In Development.
